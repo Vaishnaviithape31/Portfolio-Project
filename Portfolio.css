@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero-section {
+    background: linear-gradient(to right, #007bff, #00c6ff);
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.project-card img {
+    border-radius: 8px;
+}
+
+.skills-section {
+    background-color: #f8f9fa;
+}
+
+.skill-item h5 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Certifications Section */
+#certifications {
+    background-color: #f8f9fa;
+    padding: 60px 20px;
+}
+
+#certifications h2 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+#certifications .card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#certifications .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#certifications .card-body {
+    padding: 25px;
+}
+
+#certifications .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+#certifications .card-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+#certifications .card-text.text-muted {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+#certifications .row {
+    margin-top: 20px;
+}
+
+#certifications .container {
+    max-width: 900px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #certifications h2 {
+        font-size: 1.8rem;
+    }
+
+    #certifications .card-body {
+        padding: 20px;
+    }
+}
+
+
+.progress {
+    height: 20px;
+    border-radius: 10px;
+    background-color: #e9ecef;
+    overflow: hidden;
+}
+
+.progress-bar {
+    font-size: 0.9rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+}
+
+  
