@@ -3,7 +3,7 @@ body {
 }
 
 .hero-section {
-    background: linear-gradient(to right, #007bff, #00c6ff);
+    background: linear-gradient(to right, beige, #00c6ff);
     color: white;
     padding: 60px 0;
     text-align: center;
@@ -14,7 +14,7 @@ body {
 }
 
 .skills-section {
-    background-color: #f8f9fa;
+    background-color:  #f8f9fa;
 }
 
 .skill-item h5 {
@@ -44,7 +44,7 @@ body {
 
 #certifications .card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px black;
 }
 
 #certifications .card-body {
@@ -54,14 +54,14 @@ body {
 #certifications .card-title {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #007bff;
+    color: pink;
     margin-bottom: 15px;
 }
 
 #certifications .card-text {
     font-size: 1rem;
     line-height: 1.6;
-    color: #555;
+    color:grey;
 }
 
 #certifications .card-text.text-muted {
@@ -92,7 +92,7 @@ body {
 .progress {
     height: 20px;
     border-radius: 10px;
-    background-color: #e9ecef;
+    background-color: white;
     overflow: hidden;
 }
 
